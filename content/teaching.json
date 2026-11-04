@@ -1,0 +1,8 @@
+{
+  "intro": "Learning through theory, experimentation and collaboration. Course information and student opportunities will be collected here.",
+  "courses": [
+    { "title": "Wireless communications", "level": "Example course", "description": "Space for a course covering wireless channels, modulation, coding and modern communication systems.", "details": "Add the official course code, lecturer, semester and catalogue link.", "placeholder": true },
+    { "title": "Statistical signal processing", "level": "Example course", "description": "Space for a course exploring estimation, detection and signal processing methods for communication and sensing.", "details": "Add the syllabus, prerequisites and official teaching materials.", "placeholder": true },
+    { "title": "Experimental wireless systems", "level": "Example lab module", "description": "Space for practical sessions on measurement techniques, radio prototyping and experimental validation.", "details": "Add the session schedule and access instructions.", "placeholder": true }
+  ]
+}

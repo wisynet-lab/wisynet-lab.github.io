@@ -1,0 +1,60 @@
+{
+  "intro": "The people behind the connections. Meet our principal investigator and the growing WiSyNet research community.",
+  "members": [
+    {
+      "id": "umberto-spagnolini",
+      "name": "Umberto Spagnolini",
+      "role": "Principal investigator",
+      "title": "Full Professor of Telecommunications",
+      "image": "assets/images/umberto-spagnolini.jpg",
+      "imageAlt": "Portrait of Umberto Spagnolini from his DEIB profile",
+      "bio": "Umberto Spagnolini has been a Full Professor of Telecommunications at Politecnico di Milano since 2006. His research focuses on signal processing for mobile communications, radar and remote sensing. He previously served as an Assistant Professor and an Associate Professor at the university.",
+      "topics": [
+        "Signal processing",
+        "Wireless communications",
+        "Remote sensing"
+      ],
+      "email": "umberto.spagnolini@polimi.it",
+      "profile": "https://www.deib.polimi.it/eng/people/details/371738",
+      "website": "https://spagnolini.faculty.polimi.it/",
+      "placeholder": false,
+      "credit": "Biography and portrait: DEIB, Politecnico di Milano."
+    },
+    {
+      "id": "researcher-placeholder",
+      "name": "Researcher name",
+      "role": "Postdoctoral researcher",
+      "image": "assets/images/avatar-placeholder.svg",
+      "imageAlt": "Placeholder for a future member portrait",
+      "bio": "A short biography will introduce this member's research interests, background and role in the lab.",
+      "topics": [
+        "Research topic"
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "phd-placeholder",
+      "name": "Doctoral researcher name",
+      "role": "PhD researcher",
+      "image": "assets/images/avatar-placeholder.svg",
+      "imageAlt": "Placeholder for a future member portrait",
+      "bio": "A short biography will introduce this member's doctoral project, interests and academic background.",
+      "topics": [
+        "Research topic"
+      ],
+      "placeholder": true
+    },
+    {
+      "id": "visitor-placeholder",
+      "name": "Visiting researcher name",
+      "role": "Visiting researcher",
+      "image": "assets/images/avatar-placeholder.svg",
+      "imageAlt": "Placeholder for a future member portrait",
+      "bio": "A short biography will introduce this visitor's home institution and collaboration with WiSyNet.",
+      "topics": [
+        "Research topic"
+      ],
+      "placeholder": true
+    }
+  ]
+}

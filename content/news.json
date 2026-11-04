@@ -1,0 +1,8 @@
+{
+  "intro": "Research updates, events and stories from our community.",
+  "items": [
+    { "id": "spoke3-workshop", "title": "RESTART Spoke 3 meets at Politecnico di Milano", "date": "2025-11-20", "category": "RESTART", "text": "The Spoke 3 dissemination event brought together academic and industry perspectives on wireless networks and technologies, and concluded with a visit to the WISYNET RESTART laboratories.", "url": "https://fondazione-restart.it/2025/12/03/spoke-3-dissemination-and-exploitation-workshop-wireless-networks-and-technologies-2/", "linkLabel": "Read the RESTART report", "note": "Event held 20 November 2025 · Report published 3 December 2025", "placeholder": false },
+    { "id": "lab-news-placeholder", "title": "A new chapter from the lab", "date": "", "category": "Lab life", "text": "A place for your next milestone, a new collaboration or a story from everyday life at WiSyNet.", "placeholder": true },
+    { "id": "seminar-placeholder", "title": "Ideas worth sharing", "date": "", "category": "Events", "text": "Add an upcoming seminar or workshop, with the speaker, location, date and registration details.", "placeholder": true }
+  ]
+}

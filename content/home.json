@@ -1,0 +1,16 @@
+{
+  "eyebrow": "WELCOME TO WISYNET",
+  "headline": ["Wireless systems.", "Connected futures."],
+  "intro": "We explore the technologies that connect our world. From high-frequency devices to intelligent networks, WiSyNet brings wireless research to life at Politecnico di Milano.",
+  "about": "WiSyNet — Wireless System Networks — is a research laboratory funded under the RESTART programme. Based at the Department of Electronics, Information and Bioengineering (DEIB), we connect ideas, people and experiments to explore the future of wireless communication.",
+  "research": [
+    { "icon": "signal", "title": "High-frequency technologies", "text": "Exploring mmWave and sub-THz devices, radio systems and component characterisation." },
+    { "icon": "network", "title": "Intelligent wireless networks", "text": "Investigating open radio architectures, smart radio environments and massive connectivity." },
+    { "icon": "radar", "title": "Connected environments", "text": "Studying vehicular connectivity, experimental 5G networks and electromagnetic exposure." }
+  ],
+  "gallery": [
+    { "src": "assets/images/sample-lab.jpg", "alt": "Stock photograph of electronics being examined under a microscope", "caption": "A closer look at what's next", "label": "01 / EXPERIMENT", "credit": "Stock image · not the WiSyNet lab", "fit": "contain", "position": "50% 50%" },
+    { "src": "assets/images/sample-circuit.jpg", "alt": "Stock photograph showing the components of an electronic circuit board", "caption": "From ideas to real systems", "label": "02 / DISCOVER", "credit": "Stock image · not WiSyNet equipment", "fit": "contain", "position": "50% 50%" },
+    { "src": "assets/images/sample-radio.jpg", "alt": "Stock photograph of a drone in flight in front of a forest", "caption": "Connections beyond the bench", "label": "03 / CONNECT", "credit": "Stock image · illustrative research theme", "fit": "contain", "position": "50% 50%" }
+  ]
+}
