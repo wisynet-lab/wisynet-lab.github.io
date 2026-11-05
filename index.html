@@ -21,7 +21,49 @@
   <div class="gallery container" aria-roledescription="carousel" aria-label="Postcards from the lab" data-carousel>
    <div class="gallery-heading"><span>POSTCARDS FROM THE LAB</span><span>Explore. Experiment. Connect.</span></div>
    <div class="postcard-stage" tabindex="0" aria-label="Photo carousel. Use left and right arrow keys to browse." aria-describedby="gallery-help">
-    <button class="postcard" data-slide="0" type="button" aria-label="Focus photo 1: A closer look at what&#39;s next" aria-pressed="true"><span class="postcard-image"><img src="assets/images/sample-lab.jpg" alt="Stock photograph of electronics being examined under a microscope" fetchpriority="high" decoding="async" draggable="false" style="object-fit:contain;object-position:50% 50%" width="600" height="400"></span><span class="postcard-caption sr-only">A closer look at what&#39;s next</span><span class="postcard-meta sr-only">01 / EXPERIMENT</span><span class="postcard-credit sr-only">Stock image · not the WiSyNet lab</span></button><button class="postcard" data-slide="1" type="button" aria-label="Focus photo 2: From ideas to real systems" aria-pressed="false"><span class="postcard-image"><img src="assets/images/sample-circuit.jpg" alt="Stock photograph showing the components of an electronic circuit board" loading="lazy" decoding="async" draggable="false" style="object-fit:contain;object-position:50% 50%" width="600" height="400"></span><span class="postcard-caption sr-only">From ideas to real systems</span><span class="postcard-meta sr-only">02 / DISCOVER</span><span class="postcard-credit sr-only">Stock image · not WiSyNet equipment</span></button><button class="postcard" data-slide="2" type="button" aria-label="Focus photo 3: Connections beyond the bench" aria-pressed="false"><span class="postcard-image"><img src="assets/images/sample-radio.jpg" alt="Stock photograph of a drone in flight in front of a forest" loading="lazy" decoding="async" draggable="false" style="object-fit:contain;object-position:50% 50%" width="600" height="400"></span><span class="postcard-caption sr-only">Connections beyond the bench</span><span class="postcard-meta sr-only">03 / CONNECT</span><span class="postcard-credit sr-only">Stock image · illustrative research theme</span></button>
+
+        <button
+          class="postcard"
+          data-slide="0"
+          type="button"
+          aria-label="Focus postcard 1: Inside the lab"
+          aria-pressed="true"
+        >
+          <span class="postcard-image postcard-media-grid">
+            <img
+              src="assets/images/robottino_limesdr.jpg"
+              alt="Agilex Hunter SE with LimeSDR experiment"
+              fetchpriority="high"
+              decoding="async"
+              draggable="false"
+            >
+            <img
+              src="assets/images/robottino_zcu_sivers.jpg"
+              alt="Agilex Hunter SE with RFSoC and Sivers 60GHz beamformer"
+              decoding="async"
+              draggable="false"
+            >
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              aria-label="Capturing data with Hunter SE outside of the lab"
+            >
+              <source src="assets/videos/robottino_go.mp4" type="video/mp4">
+              Some issue with video playback has occurred.
+            </video>
+          </span>
+
+          <span class="postcard-caption sr-only">Experiments with Hunter SE</span>
+          <span class="postcard-meta sr-only">01 / EXPERIMENT</span>
+          <span class="postcard-credit sr-only">WiSyNet laboratory</span>
+        </button>
+        
+        <button class="postcard" data-slide="1" type="button" aria-label="Focus photo 2: From ideas to real systems" aria-pressed="false"><span class="postcard-image"><img src="assets/images/sample-circuit.jpg" alt="Stock photograph showing the components of an electronic circuit board" loading="lazy" decoding="async" draggable="false" style="object-fit:contain;object-position:50% 50%" width="600" height="400"></span><span class="postcard-caption sr-only">From ideas to real systems</span><span class="postcard-meta sr-only">02 / DISCOVER</span><span class="postcard-credit sr-only">Stock image · not WiSyNet equipment</span></button>
+        
+        <button class="postcard" data-slide="2" type="button" aria-label="Focus photo 3: Connections beyond the bench" aria-pressed="false"><span class="postcard-image"><img src="assets/images/sample-radio.jpg" alt="Stock photograph of a drone in flight in front of a forest" loading="lazy" decoding="async" draggable="false" style="object-fit:contain;object-position:50% 50%" width="600" height="400"></span><span class="postcard-caption sr-only">Connections beyond the bench</span><span class="postcard-meta sr-only">03 / CONNECT</span><span class="postcard-credit sr-only">Stock image · illustrative research theme</span></button>
    </div>
    <div class="gallery-bottom">
     <div class="gallery-selection" aria-live="polite" aria-atomic="true"><p class="selection-label" data-gallery-label>01 / EXPERIMENT</p><p class="selection-caption" data-gallery-caption>A closer look at what&#39;s next</p><p class="selection-credit" data-gallery-credit>Stock image · not the WiSyNet lab</p></div>
