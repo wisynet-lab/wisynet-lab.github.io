@@ -537,3 +537,32 @@ pre { font-size: .9375rem; color: var(--navy); background: var(--pale); border-r
   .news-card, .research-card { margin-bottom: 20px; }
   .reveal-ready { opacity: 1 !important; transform: none !important; }
 }
+
+
+/* Two portrait images + one video: 25% / 25% / 50%, excluding gaps. */
+.postcard-image.postcard-media-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr);
+  gap: clamp(4px, 0.7vw, 10px);
+  aspect-ratio: 16 / 10;
+  background: var(--navy);
+}
+
+.postcard-media-grid > img,
+.postcard-media-grid > video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+  pointer-events: none; /* Clicking still focuses the whole postcard. */
+}
+
+/* Show the entire video without cropping. */
+.postcard-media-grid > video {
+  object-fit: contain;
+}
+
