@@ -23,6 +23,7 @@ document.querySelectorAll('[data-carousel]').forEach(gallery => {
   const stage = gallery.querySelector('.postcard-stage');
   const dots = [...gallery.querySelectorAll('[data-gallery-go]')];
   const count = gallery.querySelector('.gallery-count');
+  const selection = gallery.querySelector('.gallery-selection');
   const play = gallery.querySelector('[data-gallery-play]');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   let current = 0;
@@ -35,7 +36,8 @@ document.querySelectorAll('[data-carousel]').forEach(gallery => {
 
   function render() {
     const width = stage.clientWidth;
-    const spread = Math.min(112, width * .2);
+    // Upright planes on a depth track. No photo is rotated or tilted.
+    const spread = width * (width < 650 ? .30 : .26);
     cards.forEach((card, i) => {
       let offset = (i - current + cards.length) % cards.length;
       if (offset > cards.length / 2) offset -= cards.length;
@@ -43,11 +45,9 @@ document.querySelectorAll('[data-carousel]').forEach(gallery => {
       const active = offset === 0;
       const visible = distance <= 1;
       card.style.setProperty('--x', `${offset * spread}px`);
-      card.style.setProperty('--y', active ? '-8px' : '7px');
-      card.style.setProperty('--z', active ? '35px' : `${-distance * 55}px`);
-      card.style.setProperty('--ry', `${offset * -9}deg`);
-      card.style.setProperty('--rz', `${active ? -4 : offset * 12}deg`);
-      card.style.setProperty('--scale', active ? '1' : '.9');
+      card.style.setProperty('--y', active ? '0px' : '16px');
+      card.style.setProperty('--z', active ? '0px' : `${-distance * 140}px`);
+      card.style.setProperty('--scale', active ? '1' : '.84');
       card.style.setProperty('--stack', active ? '10' : String(5 - distance));
       card.style.setProperty('--opacity', visible ? '1' : '0');
       card.style.pointerEvents = visible ? '' : 'none';
@@ -57,6 +57,11 @@ document.querySelectorAll('[data-carousel]').forEach(gallery => {
     });
     dots.forEach((dot,i) => dot.setAttribute('aria-pressed',String(i===current)));
     count.textContent = `${String(current+1).padStart(2,'0')} / ${String(cards.length).padStart(2,'0')}`;
+    for (const part of ['caption', 'credit', 'label']) {
+      const target = gallery.querySelector(`[data-gallery-${part}]`);
+      const source = cards[current].querySelector(`.postcard-${part === 'label' ? 'meta' : part}`);
+      if (target) target.textContent = source?.textContent || '';
+    }
   }
   function stop() {
     clearInterval(timer);
@@ -64,7 +69,7 @@ document.querySelectorAll('[data-carousel]').forEach(gallery => {
     play.textContent = '▶';
     play.setAttribute('aria-label','Play slideshow');
     play.setAttribute('aria-pressed','false');
-    count.setAttribute('aria-live','polite');
+    selection?.setAttribute('aria-live','polite');
   }
   function go(index, user = true) {
     if (user) stop();
@@ -84,7 +89,7 @@ document.querySelectorAll('[data-carousel]').forEach(gallery => {
     play.textContent = 'Ⅱ';
     play.setAttribute('aria-label','Pause slideshow');
     play.setAttribute('aria-pressed','true');
-    count.setAttribute('aria-live','off');
+    selection?.setAttribute('aria-live','off');
     timer = setInterval(() => go(current+1, false), 5500);
   });
   stage.addEventListener('keydown', event => {
@@ -149,3 +154,28 @@ document.querySelectorAll('[data-filter-list]').forEach(list => {
     (search || chips[0])?.focus();
   });
 });
+
+// One-time entrance animations; no framework, render loop or scroll listener.
+// Content stays visible without this API or when reduced motion is preferred.
+const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+if ('IntersectionObserver' in window && !motionPreference.matches) {
+  const targets = document.querySelectorAll('.research-card, .news-card, .member-card, .course-card, .instrument-card, .about-section, .contact-band');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-revealed');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {threshold: .08});
+  targets.forEach(target => {
+    target.classList.add('reveal-ready');
+    observer.observe(target);
+  });
+  motionPreference.addEventListener('change', event => {
+    if (event.matches) {
+      targets.forEach(target => target.classList.add('is-revealed'));
+      observer.disconnect();
+    }
+  });
+}

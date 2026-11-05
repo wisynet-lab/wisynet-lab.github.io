@@ -2,6 +2,14 @@
 
 A complete, English-language laboratory website for GitHub Pages, using a white background with **Azzurro DEIB `#8DB9CD`**, **Blue Heritage Politecnico `#102c53`**, and **Azzurro di Accent `#2942db`**.
 
+## Second iteration — November 2026
+
+This edition increases the typography throughout, adds navy sections with light text and pale-blue panels, and makes the gallery the full-width feature at the top of the homepage. The welcome text sits below it. Photos stay upright and slide forward/back through depth; the central image faces the viewer flat, with a slim frame and readable captions beneath the stage.
+
+Animations use CSS transforms/opacity and a one-time intersection observer. There is no animation library or continuous scroll/render loop. Reduced-motion preferences disable the animations. Existing content files, navigation, filters and future booking configuration still work.
+
+To update an already published first version, replace the website files with the contents of this package. If you have edited content since downloading the first version, retain your `content/` files and custom images, copy in the updated `scripts/` and `assets/css/` / `assets/js/` folders, then run `npm run build` before uploading the generated HTML.
+
 ## Publish in a few minutes
 
 1. Unzip this project.
@@ -28,7 +36,7 @@ Then visit `http://localhost:8000`. Windows installations may use `py -m http.se
 
 | Page | Features |
 | --- | --- |
-| Home | Welcome, interactive 3D postcard gallery, research themes, RESTART acknowledgement, news and contact |
+| Home | Welcome, full-width cinematic postcard gallery, research themes, RESTART acknowledgement, news and contact |
 | Group | PI biography and DEIB portrait, individual member cards, circular portraits |
 | Publications | Verified selected arXiv records, search, year/type filters, PDF links and expandable BibTeX |
 | Teaching | Clearly labelled sample courses, expandable course details, student contact |
@@ -85,7 +93,7 @@ If setting `site.url`, use the full deployment address including the repository 
 
 **Different image proportions and resolutions work together.** `contain` (the default) displays the full image without distortion or cropping within the postcard. Portrait and panoramic images have breathing room around them. Choose `cover` only if you want the frame filled by cropping; `position` selects the crop's focal point. Recommended: JPEG/WebP photos around 1600 px on the longest edge, under 500 KB when practical. PNG and SVG also work. Files are referenced locally; there is no browser upload/admin service on GitHub Pages.
 
-The gallery supports one image or many, with click-to-focus, previous/next, dots, left/right/Home/End keys, touch swipe and optional playback. For the three supplied photos, each surrounding card can be clicked to move forward. For larger collections, arrows and dots reach all images.
+The gallery uses a flat, upright central photo and smaller photos sliding behind it. It supports one image or many, with click-to-focus, previous/next, dots, left/right/Home/End keys, touch swipe and optional playback. For the three supplied photos, each surrounding card can be clicked to move forward. For larger collections, arrows and dots reach all images.
 
 ## Add a member
 

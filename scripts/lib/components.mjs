@@ -15,7 +15,7 @@ export function icon(name, className = '') {
   return `<svg class="icon ${esc(className)}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || paths.signal}</svg>`;
 }
 export function pageIntro(section, title, intro) {
-  return `<header class="page-intro container"><p class="eyebrow"><span class="tiny-line"></span>${esc(section)}</p><h1>${esc(title)}</h1><p class="lead">${esc(intro)}</p></header>`;
+  return `<div class="page-banner"><header class="page-intro container"><p class="eyebrow"><span class="tiny-line"></span>${esc(section)}</p><h1>${esc(title)}</h1><p class="lead">${esc(intro)}</p></header></div>`;
 }
 export const badge = text => `<span class="badge">${esc(text)}</span>`;
 export function memberCard(m, featured = false) {
