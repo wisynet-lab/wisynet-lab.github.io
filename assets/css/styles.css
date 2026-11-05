@@ -561,8 +561,9 @@ pre { font-size: .9375rem; color: var(--navy); background: var(--pale); border-r
   pointer-events: none; /* Clicking still focuses the whole postcard. */
 }
 
-/* Show the entire video without cropping. */
+/* fix video. */
 .postcard-media-grid > video {
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
 }
 
