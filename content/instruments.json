@@ -1,9 +1,18 @@
 {
   "intro": "Tools that turn questions into experiments. Explore the capabilities described in the RESTART laboratory directory.",
   "items": [
-    { "id": "vna", "name": "Vector network analyser", "category": "Measurement", "icon": "wave", "spec": "Up to 110 GHz", "description": "For high-frequency component characterisation.", "details": "Model, configuration and access information to be added.", "assetId": "", "bookingUrl": "" },
+    { "id": "vna", "name": "Vector network analyser", "category": "Measurement", "icon": "wave", "spec": "Up to 110 GHz", 
+    "image": "assets/images/instruments/VNA_N5227B.jpg",
+    "imageAlt": "VNA",
+    "description": "Four port vector network analyzer for high-frequency antennas and component characterisation.", "details": "Model, configuration and access information to be added.", "assetId": "", "bookingUrl": "" },
+
+
     { "id": "signal", "name": "Signal generation & analysis", "category": "Measurement", "icon": "signal", "spec": "Millimetre-wave systems", "description": "Signal generators and analysers for wireless experiments.", "details": "Model, frequency options and accessories to be added.", "assetId": "", "bookingUrl": "" },
+
+
     { "id": "anechoic", "name": "Controlled anechoic zone", "category": "Facilities", "icon": "radar", "spec": "Electromagnetic testing", "description": "A controlled environment for electromagnetic measurements.", "details": "Dimensions, setup requirements and access instructions to be added.", "assetId": "", "bookingUrl": "" },
+
+
     { "id": "5g", "name": "Private 5G network", "category": "Networks", "icon": "network", "spec": "Experimental radio network", "description": "A network environment for testing wireless systems.", "details": "Deployment details and experiment procedures to be added.", "assetId": "", "bookingUrl": "" }
   ]
 }

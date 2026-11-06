@@ -567,3 +567,15 @@ pre { font-size: .9375rem; color: var(--navy); background: var(--pale); border-r
   object-position: center;
 }
 
+.instrument-visual .instrument-thumbnail {
+  position: relative;
+  z-index: 1;
+  width: 160px;
+  height: 110px;
+  margin-bottom: 24px; /* Leave room for the category label. */
+  padding: 6px;
+  object-fit: contain;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
