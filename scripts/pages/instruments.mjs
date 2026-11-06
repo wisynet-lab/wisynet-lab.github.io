@@ -16,8 +16,8 @@ export default ({site,instruments}) => `${pageIntro('INSIDE THE LAB','Made for e
          class="instrument-thumbnail"
          src="${esc(i.image)}"
          alt="${esc(i.imageAlt || i.name)}"
-         width="380"
-         height="110"
+         width="300"
+         height="120"
          loading="lazy"
          decoding="async"
        >`
