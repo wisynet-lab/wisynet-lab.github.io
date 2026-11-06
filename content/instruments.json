@@ -7,7 +7,11 @@
     "description": "Four port vector network analyzer for high-frequency antennas and component characterisation.", "details": "Keysight PNA N5227B 10khz-67GHz with extenders up to 110GHz.", "assetId": "", "bookingUrl": "" },
 
 
-    { "id": "signal", "name": "Signal generation & analysis", "category": "Measurement", "icon": "signal", "spec": "Millimetre-wave systems", "description": "Signal generators and analysers for wireless experiments.", "details": "Model, frequency options and accessories to be added.", "assetId": "", "bookingUrl": "" },
+    { "id": "oscilloscope", "name": "Wavemaster 8330HD Oscilloscope", "category": "Measurement", "icon": "signal", "spec": "160 GS/s, 12 bit, 33 GHz", 
+    "description": "mmWave Oscilloscope capable of sampling from 0 to 33 GHz. $ billion points memory depth. Programmable spectrum analyzer and signal decoding.",
+    "image": "assets/images/instruments/Wavemaster_8330HD.jpg",
+    "imageAlt": "Oscilloscope",
+    "details": "Wavemaster 8330HD Oscilloscope", "assetId": "", "bookingUrl": "" },
 
 
     { "id": "anechoic", "name": "Controlled anechoic zone", "category": "Facilities", "icon": "radar", "spec": "Electromagnetic testing", "description": "A controlled environment for electromagnetic measurements.", "details": "Dimensions, setup requirements and access instructions to be added.", "assetId": "", "bookingUrl": "" },
