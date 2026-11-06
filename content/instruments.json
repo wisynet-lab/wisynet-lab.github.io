@@ -4,7 +4,7 @@
     { "id": "vna", "name": "Vector network analyser", "category": "Measurement", "icon": "wave", "spec": "Up to 110 GHz", 
     "image": "assets/images/instruments/VNA_N5227B.jpg",
     "imageAlt": "VNA",
-    "description": "Four port vector network analyzer for high-frequency antennas and component characterisation.", "details": "Model, configuration and access information to be added.", "assetId": "", "bookingUrl": "" },
+    "description": "Four port vector network analyzer for high-frequency antennas and component characterisation.", "details": "Keysight PNA N5227B 10khz-67GHz with extenders up to 110GHz.", "assetId": "", "bookingUrl": "" },
 
 
     { "id": "signal", "name": "Signal generation & analysis", "category": "Measurement", "icon": "signal", "spec": "Millimetre-wave systems", "description": "Signal generators and analysers for wireless experiments.", "details": "Model, frequency options and accessories to be added.", "assetId": "", "bookingUrl": "" },
