@@ -1,5 +1,12 @@
 import {esc,pageIntro,badge,icon,getBookingLink} from '../lib/components.mjs';
-export default ({site,instruments}) => `${pageIntro('INSIDE THE LAB','Made for experimentation.',instruments.intro)}<section class="container section-content" data-filter-list aria-label="Instruments"><div class="instrument-notice"><span class="notice-icon">${icon('wave')}</span><div><h2>A first look at our capabilities</h2><p>Categories are based on RESTART's public directory. Models, local inventory, availability and booking arrangements are still to be confirmed.</p></div></div><div class="filter-bar" hidden><label class="search-field">${icon('search')}<span class="sr-only">Search instruments</span><input type="search" data-search placeholder="Find an instrument or capability…"></label><div class="filter-chips" aria-label="Instrument category">${['All',...new Set(instruments.items.map(item=>item.category))].map((t,i)=>`<button data-filter="${esc(t)}" aria-pressed="${i===0}">${esc(t)}</button>`).join('')}</div></div><p class="result-count" data-result-count aria-live="polite">${instruments.items.length} entries</p><div class="instrument-grid">${instruments.items.map(i=>{const booking=getBookingLink(site,i);return `<article class="instrument-card" data-filter-item data-type="${esc(i.category)}">
+export default ({site,instruments}) => `${pageIntro('INSIDE THE LAB','Made for experimentation.',instruments.intro)}
+
+<section class="container section-content" data-filter-list aria-label="Instruments">
+
+
+
+
+<div class="filter-bar" hidden><label class="search-field">${icon('search')}<span class="sr-only">Search instruments</span><input type="search" data-search placeholder="Find an instrument or capability…"></label><div class="filter-chips" aria-label="Instrument category">${['All',...new Set(instruments.items.map(item=>item.category))].map((t,i)=>`<button data-filter="${esc(t)}" aria-pressed="${i===0}">${esc(t)}</button>`).join('')}</div></div><p class="result-count" data-result-count aria-live="polite">${instruments.items.length} entries</p><div class="instrument-grid">${instruments.items.map(i=>{const booking=getBookingLink(site,i);return `<article class="instrument-card" data-filter-item data-type="${esc(i.category)}">
 
 <div class="instrument-visual">
   ${icon(i.icon)}
