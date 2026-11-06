@@ -580,7 +580,7 @@ pre { font-size: .9375rem; color: var(--navy); background: var(--pale); border-r
 .instrument-visual .instrument-thumbnail {
   position: relative;
   z-index: 1;
-  width: 280px;
+  width: 380px;
   max-width: calc(100% - 92px); /* Room for the 72px icon + gap */
   height: 110px;
   min-width: 0;

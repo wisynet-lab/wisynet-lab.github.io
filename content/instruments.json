@@ -1,5 +1,5 @@
 {
-  "intro": "Tools that turn questions into experiments. Explore the capabilities described in the RESTART laboratory directory.",
+  "intro": "Instrument ooking system coming soon!",
   "items": [
     { "id": "vna", "name": "Vector network analyser", "category": "Measurement", "icon": "wave", "spec": "Up to 110 GHz", 
     "image": "assets/images/instruments/VNA_N5227B.jpg",
