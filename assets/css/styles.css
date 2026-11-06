@@ -580,13 +580,15 @@ pre { font-size: .9375rem; color: var(--navy); background: var(--pale); border-r
 .instrument-visual .instrument-thumbnail {
   position: relative;
   z-index: 1;
-  width: 220px;
+  width: 280px;
   max-width: calc(100% - 92px); /* Room for the 72px icon + gap */
   height: 110px;
   min-width: 0;
   margin: 0 0 0 auto;
   padding: 6px;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
+  padding: 0;
   background: var(--deib);
   border: 1px solid var(--line);
   border-radius: 8px;
