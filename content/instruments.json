@@ -1,20 +1,49 @@
 {
-  "intro": "Instrument ooking system coming soon!",
+  "intro": "Instrument booking system coming soon!",
   "items": [
-    { "id": "vna", "name": "Vector network analyser", "category": "Measurement", "icon": "wave", "spec": "4 Ports up to 110 GHz", 
+    { "id": "vna", "name": "Keysight Vector network analyser", 
+    "category": "Measurement", "icon": "wave", 
+    "spec": "4 Ports up to 110 GHz", 
     "image": "assets/images/instruments/VNA_N5227B.jpg",
     "imageAlt": "VNA",
-    "description": "Four port vector network analyzer for high-frequency antennas and component characterisation.", "details": "Keysight PNA N5227B 10khz-67GHz with extenders up to 110GHz.", "assetId": "", "bookingUrl": "" },
+    "description": "Four port vector network analyzer for high-frequency antennas and component characterisation.", 
+    "details": "Keysight PNA N5227B 10khz-67GHz with extenders up to 110GHz.", 
+    "assetId": "", "bookingUrl": "" },
 
 
-    { "id": "oscilloscope", "name": "Wavemaster 8330HD Oscilloscope", "category": "Measurement", "icon": "wave", "spec": "160 GS/s, 12 bit, 33 GHz", 
-    "description": "mmWave Oscilloscope capable of sampling from 0 to 33 GHz. $ billion points memory depth. Programmable spectrum analyzer and signal decoding.",
+    { "id": "oscilloscope", "name": "Lecroy Wavemaster 8330HD Oscilloscope", 
+    "category": "Measurement", "icon": "wave", 
+    "spec": "160 GS/s, 12 bit, 33 GHz", 
+    "description": "mmWave Oscilloscope capable of sampling from 0 to 33 GHz. 4 billion points memory depth. Programmable spectrum analyzer and signal decoding.",
     "image": "assets/images/instruments/Wavemaster_8330HD.jpg",
     "imageAlt": "Oscilloscope",
-    "details": "Wavemaster 8330HD Oscilloscope", "assetId": "", "bookingUrl": "" },
+    "details": "Lecroy Wavemaster 8330HD Oscilloscope", 
+    "assetId": "", "bookingUrl": "" },
 
+    { "id": "CWGEN", "name": "R&S SMA100B CW Generator", 
+    "category": "Measurement", "icon": "wave", 
+    "spec": "up to 40 GHz CW Generator", 
+    "description": "R&S Continuous Waveform Generator, up to 40 GHz, calibrated power control, ultra low Phase Noise.",
+    "image": "assets/images/instruments/SMA100B.png",
+    "imageAlt": "SMA100B",
+    "details": "R&S SMA100B CW Generator", 
+    "assetId": "", "bookingUrl": "" },
 
-    { "id": "anechoic", "name": "Controlled anechoic zone", "category": "Facilities", "icon": "radar", "spec": "Electromagnetic testing", "description": "A controlled environment for electromagnetic measurements.", "details": "Dimensions, setup requirements and access instructions to be added.", "assetId": "", "bookingUrl": "" },
+    { "id": "AWG", "name": "Tektronix AWG70002B Arbitrary Waveform Generator", 
+    "category": "Measurement", "icon": "wave", 
+    "spec": "10 bit, 25 GS/s", 
+    "description": "Tektronix AWG70002B Arbitrary Waveform Generator, 12.5 GHz Bandwidth, 25 GS/s, 10 bit.",
+    "image": "assets/images/instruments/AWG70002B.png",
+    "imageAlt": "AWG70002B",
+    "details": "Tektronix AWG70002B", 
+    "assetId": "", "bookingUrl": "" },
+
+    { "id": "anechoic", "name": "Controlled anechoic zone", 
+    "category": "Facilities", "icon": "radar", "spec": 
+    "Electromagnetic testing", 
+    "description": "A controlled environment for electromagnetic measurements.", 
+    "details": "Dimensions, setup requirements and access instructions to be added.", 
+    "assetId": "", "bookingUrl": "" },
 
 
     { "id": "5g", "name": "Private 5G network", "category": "Networks", "icon": "network", "spec": "Experimental radio network", "description": "A network environment for testing wireless systems.", "details": "Deployment details and experiment procedures to be added.", "assetId": "", "bookingUrl": "" }
