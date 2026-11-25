@@ -1,10 +1,10 @@
 # Public sources
 
-Checked 4 November 2026. All biographies and descriptions are concise paraphrases; source links are also available on `sources.html`.
+Checked 25 November 2026. All biographies and descriptions are concise paraphrases; source links are also available on `sources.html`.
 
 | Information | Source |
 | --- | --- |
-| Academic role, biography and portrait | [DEIB: Umberto Spagnolini](https://www.deib.polimi.it/eng/people/details/371738) |
+| Academic roles, biographies and portraits | DEIB: [Umberto Spagnolini](https://www.deib.polimi.it/eng/people/details/371738), [Maurizio Magarini](https://www.deib.polimi.it/eng/people/details/249878), [Marco Mezzavilla](https://www.deib.polimi.it/eng/people/details/2083580), [Matteo Oldoni](https://www.deib.polimi.it/eng/people/details/439544), [Davide Scazzoli](https://www.deib.polimi.it/eng/people/details/675564), [Marouan Mizmizi](https://www.deib.polimi.it/eng/people/details/714824), [Francesco Linsalata](https://www.deib.polimi.it/eng/people/details/993414), [Dario Tagliaferri](https://www.deib.polimi.it/eng/people/details/709316) and [Luca Reggiani](https://www.deib.polimi.it/eng/people/dettagli/335208) |
 | Public email and related 6GWINET context | [RESTART: 6GWINET](https://fondazione-restart.it/home/projects/s6-6gwinet/) |
 | WiSyNet themes, instruments and RESTART association | [RESTART Mission 2 directory](https://fondazione-restart.it/it/home-italiano/missioni/missione-2-laboratori-proof-of-concept-e-dimostratori/) |
 | Department address and reception phone | [DEIB contacts](https://www.deib.polimi.it/eng/contacts) |
@@ -16,12 +16,12 @@ Checked 4 November 2026. All biographies and descriptions are concise paraphrase
 
 Editorial choices:
 
-- Lab PI identity, RESTART funding statement and preferred name expansion come from the user. Public sources independently support the academic biography and programme association. The RESTART directory names other responsible contacts; no extra personnel have been inferred as WiSyNet members.
+- Lab PI identity, RESTART funding statement, preferred name expansion and Davide Scazzoli's lab-responsible/main-contact designation come from the user. Public sources independently support the academic biographies and programme association.
 - The DEIB profile and faculty personal page disagree on the graduation year; that year is omitted.
 - Only verified preprint metadata is included. These are selected PI/coauthor works, not a complete or exclusively lab-attributed bibliography. Years are first arXiv submissions, with revision dates separately shown.
 - The news date is the event date (20 November 2025), while the report publication date (3 December 2025) is stated separately.
 - Instrument entries describe publicly documented capability categories, not a confirmed, currently available inventory.
-- All additional members, courses and fictional sample entries are explicitly labelled. No invented real people, grants, DOIs or instrument models are presented as verified facts.
+- Group members are verified DEIB people; courses and other sample entries are explicitly labelled. No invented real people, grants, DOIs or instrument models are presented as verified facts.
 
 DEIB footer links:
 

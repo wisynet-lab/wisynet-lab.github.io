@@ -11,6 +11,7 @@ All consumed assets are bundled in `assets/`; they do not require a live third-p
 | `images/sample-circuit.jpg` | [Unsplash circuit-board stock photo](https://images.unsplash.com/photo-1518770660439-4636190af475), 1200 px rendition |
 | `images/sample-radio.jpg` | [Unsplash drone stock photo](https://images.unsplash.com/photo-1473968512647-3e447244af8f), 800 px rendition |
 | `images/avatar-placeholder.svg` | Original vector silhouette; replace with a member portrait |
+| `images/people/*.jpg` | Portraits downloaded from the corresponding DEIB member profiles; see `docs/SOURCES.md` |
 | `images/favicon.svg` | Original network symbol; a starter visual identity, not an official institutional seal |
 | `fonts/manrope-latin.woff2` | Manrope variable Latin font, Google Fonts distribution; SIL Open Font License in `fonts/OFL.txt` |
 
