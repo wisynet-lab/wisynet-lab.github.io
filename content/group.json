@@ -17,6 +17,20 @@
       "credit": "Biography and portrait: DEIB, Politecnico di Milano."
     },
     {
+      "id": "davide-scazzoli",
+      "name": "Davide Scazzoli",
+      "role": "Lab responsible & main contact",
+      "title": "Assistant Professor",
+      "image": "assets/images/people/davide-scazzoli.jpg",
+      "imageAlt": "Portrait of Davide Scazzoli from DEIB profile",
+      "bio": "Davide Scazzoli develops software-defined-radio testbeds and prototypes for experimental validation. His research focuses on UAV-assisted communications and sensing, transmitter localisation, joint communication and sensing, wireless sensor networks, IoT and cloud applications.",
+      "topics": ["Software-defined radio", "UAV communications", "Integrated sensing"],
+      "email": "davide.scazzoli@polimi.it",
+      "profile": "https://www.deib.polimi.it/eng/people/details/675564",
+      "placeholder": false,
+      "credit": "Biography and portrait: DEIB, Politecnico di Milano."
+    },
+    {
       "id": "maurizio-magarini",
       "name": "Maurizio Magarini",
       "role": "Associate professor",
@@ -56,20 +70,7 @@
       "placeholder": false,
       "credit": "Biography and portrait: DEIB, Politecnico di Milano."
     },
-    {
-      "id": "davide-scazzoli",
-      "name": "Davide Scazzoli",
-      "role": "Lab responsible & main contact",
-      "title": "Assistant Professor",
-      "image": "assets/images/people/davide-scazzoli.jpg",
-      "imageAlt": "Portrait of Davide Scazzoli from DEIB profile",
-      "bio": "Davide Scazzoli develops software-defined-radio testbeds and prototypes for experimental validation. His research focuses on UAV-assisted communications and sensing, transmitter localisation, joint communication and sensing, wireless sensor networks, IoT and cloud applications.",
-      "topics": ["Software-defined radio", "UAV communications", "Integrated sensing"],
-      "email": "davide.scazzoli@polimi.it",
-      "profile": "https://www.deib.polimi.it/eng/people/details/675564",
-      "placeholder": false,
-      "credit": "Biography and portrait: DEIB, Politecnico di Milano."
-    },
+
     {
       "id": "marouan-mizmizi",
       "name": "Marouan Mizmizi",
@@ -120,6 +121,60 @@
       "topics": ["Information theory", "Broadband radio", "Wireless sensor networks"],
       "profile": "https://www.deib.polimi.it/eng/people/dettagli/335208",
       "website": "https://reggiani.faculty.polimi.it/",
+      "placeholder": false,
+      "credit": "Biography and portrait: DEIB, Politecnico di Milano."
+    },
+    {
+      "id": "antonio-capone",
+      "name": "Antonio Capone",
+      "role": "Full professor",
+      "title": "Telecommunications",
+      "image": "assets/images/people/antonio-capone.jpg",
+      "imageAlt": "Portrait of Antonio Capone from DEIB profile",
+      "bio": "Antonio Capone is Full Professor at Politecnico di Milano and director of the Advanced Network Technologies Laboratory. His research focuses on networking, including radio resource management, software-defined-network traffic management, and network planning and optimisation.",
+      "topics": ["Networking", "Radio resource management", "Network optimisation"],
+      "profile": "https://www.deib.polimi.it/eng/people/dettagli/123208",
+      "website": "http://www.antlab.polimi.it/people/antonio-capone",
+      "placeholder": false,
+      "credit": "Biography and portrait: DEIB, Politecnico di Milano."
+    },
+    {
+      "id": "ilario-filippini",
+      "name": "Ilario Filippini",
+      "role": "Associate professor",
+      "title": "Telecommunications",
+      "image": "assets/images/people/ilario-filippini.jpg",
+      "imageAlt": "Portrait of Ilario Filippini from DEIB profile",
+      "bio": "Ilario Filippini is an Associate Professor at Politecnico di Milano and a member of the Advanced Network Technologies Laboratory. His research includes radio resource management in wireless networks, software-defined networks, network planning and optimisation.",
+      "topics": ["Wireless networks", "Software-defined networking", "Network planning"],
+      "profile": "https://www.deib.polimi.it/eng/people/details/192984",
+      "website": "http://filippini.faculty.polimi.it",
+      "placeholder": false,
+      "credit": "Biography and portrait: DEIB, Politecnico di Milano."
+    },
+    {
+      "id": "stefano-tebaldini",
+      "name": "Stefano Tebaldini",
+      "role": "Full professor",
+      "title": "Telecommunications",
+      "image": "assets/images/people/stefano-tebaldini.jpg",
+      "imageAlt": "Portrait of Stefano Tebaldini from DEIB profile",
+      "bio": "Stefano Tebaldini is a Full Professor at Politecnico di Milano. His research focuses on radar remote sensing of the Earth, including SAR imaging and calibration, radar data processing, interferometry, polarimetry and the scientific analysis of natural media.",
+      "topics": ["Radar remote sensing", "SAR imaging", "Radar interferometry"],
+      "profile": "https://www.deib.polimi.it/eng/people/details/380084",
+      "placeholder": false,
+      "credit": "Biography and portrait: DEIB, Politecnico di Milano."
+    },
+    {
+      "id": "marco-manzoni",
+      "name": "Marco Manzoni",
+      "role": "Assistant professor",
+      "title": "Telecommunications",
+      "image": "assets/images/people/marco-manzoni.jpg",
+      "imageAlt": "Portrait of Marco Manzoni from DEIB profile",
+      "bio": "Marco Manzoni is an Assistant Professor at Politecnico di Milano. His research spans signal processing for radar remote sensing, automotive and drone-based SAR, joint communication and sensing, SAR imaging autofocus, interferometry and calibration.",
+      "topics": ["Radar remote sensing", "Automotive SAR", "Joint communication and sensing"],
+      "profile": "https://www.deib.polimi.it/eng/people/details/970600",
       "placeholder": false,
       "credit": "Biography and portrait: DEIB, Politecnico di Milano."
     }
