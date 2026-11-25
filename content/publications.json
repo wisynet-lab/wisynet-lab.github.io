@@ -4,23 +4,23 @@
     { "id": "moro2023oran", 
     "title": "Advancing O-RAN to Facilitate Intelligence in V2X", 
     "authors": "Eugenio Moro, Francesco Linsalata, Maurizio Magarini, Umberto Spagnolini and Antonio Capone", 
-    "year": "2023", 
+    "year": "2025", 
     "type": "Journal", 
-    "venue": "arXiv:2307.01029 · Revised July 2024", 
+    "venue": "IEEE Network ( Volume: 40, Issue: 1, January 2026) ", 
     "topic": "Open RAN · Vehicular networks", 
     "url": "https://ieeexplore.ieee.org/document/10937198", "pdf": "https://arxiv.org/pdf/2307.01029", 
-    "bibtex": "@misc{moro2023oran,\n  title={Advancing O-RAN to Facilitate Intelligence in V2X},\n  author={Eugenio Moro and Francesco Linsalata and Maurizio Magarini and Umberto Spagnolini and Antonio Capone},\n  year={2023},\n  eprint={2307.01029},\n  archivePrefix={arXiv},\n  primaryClass={cs.NI},\n  url={https://arxiv.org/abs/2307.01029}\n}", 
+    "bibtex": "@article{moro2025advancing,\n  title={Advancing O-RAN to facilitate intelligence in V2X},\n  author={Moro, Eugenio and Linsalata, Francesco and Magarini, Maurizio and Spagnolini, Umberto and Capone, Antonio},\n  journal={IEEE Network},\n  volume={40},\n  number={1},\n  pages={261--269},\n  year={2025},\n  publisher={IEEE}\n}\n",
     "placeholder": false },
     { "id": "mizmizi2023metasurfaces", 
     "title": "Wireless Communications with Space-Time Modulated Metasurfaces", 
     "authors": "Marouan Mizmizi, Dario Tagliaferri and Umberto Spagnolini", 
-    "year": "2023", 
+    "year": "2024", 
     "type": "Preprint", 
-    "venue": "arXiv:2302.08310 · Revised December 2023", 
+    "venue": "IEEE Journal on Selected Areas in Communications ( Volume: 42, Issue: 6, June 2024) ", 
     "topic": "Metasurfaces · Wireless systems", 
-    "url": "https://arxiv.org/abs/2302.08310", 
+    "url": "https://ieeexplore.ieee.org/abstract/document/10500426", 
     "pdf": "https://arxiv.org/pdf/2302.08310", 
-    "placeholder": false },
-    { "id": "publication-placeholder", "title": "Your next lab publication", "authors": "Author names will appear here", "year": "Sample", "type": "Journal", "venue": "Journal, volume, pages and year", "topic": "Add a research topic", "placeholder": true }
-  ]
+    "bibtex": "@article{mizmizi2024wireless,\n  title={Wireless communications with space--time modulated metasurfaces},\nauthor={Mizmizi, Marouan and Tagliaferri, Dario and Spagnolini, Umberto},\njournal={IEEE Journal on Selected Areas in Communications},\nvolume={42},\nnumber={6},\npages={1534--1548},\nyear={2024},\npublisher={IEEE}\n}", 
+    "placeholder": false }
+    ]
 }
